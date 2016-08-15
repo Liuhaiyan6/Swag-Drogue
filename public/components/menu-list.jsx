@@ -14,7 +14,7 @@ class MenuList extends React.Component {
         <div className="login">
           <ul className="list-inline">
             <li><Link to="#">登录</Link></li>
-            <li><Link to="#">注册</Link></li>
+            <li><Link to="/register">注册</Link></li>
             <li><Link to="/edit">+</Link></li>
           </ul>
         </div>
@@ -22,5 +22,4 @@ class MenuList extends React.Component {
     )
   }
 }
-
 export default MenuList;

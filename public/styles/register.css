@@ -1,0 +1,100 @@
+
+.swag-name {
+    font-size: 1.5em;
+    margin-left: 50px;
+    font-family: 'Microsoft YaHei';
+}
+
+.part-two {
+    width: 331px;
+    height: 440px;
+    float: right;
+    margin-top: 30px;
+    margin-right: 300px;
+    position: relative;
+}
+
+.enter-form {
+    margin-top: 50px;
+
+}
+
+.register-one {
+
+    font-size: 20px;
+    font-weight: 900;
+    border-left: 5px solid #00d0dc;
+    padding-left: 6px;
+}
+
+.register-two {
+    margin-top: 30px;
+    width: 300px;
+    margin-left: 80px;
+}
+
+.register-two a:link, .sign a:visited {
+    color: #000;
+    text-decoration: none;
+}
+
+.enter-button {
+    margin-top: 30px;
+    width: 300px;
+
+}
+
+.edit-lines {
+    list-style-type: none;
+    border-radius: 45px;
+    line-height: 40px;
+    color: #001100;
+}
+
+.edit-lines img {
+    width: 20px;
+    height: 20px;
+}
+
+.button-confirm {
+    margin-left: 90px;
+    margin-top: 90px;
+    width: 150px;
+}
+
+.button-confirm a:link {
+    color: #000;
+
+}
+
+.register-name {
+    border: none;
+    margin-left: 30px;
+    border-bottom: 2px dotted #000000;
+    width: 83%;
+}
+
+.register-passWord {
+    border: none;
+    margin-left: 30px;
+    border-bottom: 2px dotted #000000;
+    width: 83%;
+    margin-top: 30px;
+}
+
+.register-conPassWord {
+    border: none;
+    margin-left: 30px;
+    border-bottom: 2px dotted #000000;
+    width: 83%;
+    margin-top: 30px;
+}
+
+
+
+
+
+
+
+
+
