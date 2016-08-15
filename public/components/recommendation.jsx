@@ -2,11 +2,10 @@ import React from 'react';
 import {Link} from 'react-router';
 import MenuList from './menu-list.jsx'
 
-
 class Roll extends React.Component {
   render() {
     return (
-      <div id="caroucel">
+      <div id="carousel">
         <div id="myCarousel" className="carousel slide">
           <div id="my">
             <ol className="carousel-indicators">
@@ -83,7 +82,6 @@ class Menu extends React.Component {
     )
   }
 }
-
 class Like extends React.Component {
   render() {
     return (
@@ -92,7 +90,7 @@ class Like extends React.Component {
           <img className="love" src="./images/show8.jpg"/>
         </div>
         <div className="one">
-          <img className="love" src="./images/show7.jpg"/>
+          <img className="love" src="./images/show6.jpg"/>
         </div>
         <div className="one">
           <img className="love" src="./images/show2.jpg"/>
@@ -111,7 +109,7 @@ class Like extends React.Component {
   }
 }
 
-class RemBody extends React.Component {
+class RecommendationBody extends React.Component {
   render() {
     return (
       <div>
@@ -123,6 +121,6 @@ class RemBody extends React.Component {
     )
   }
 }
-export default RemBody
+export default RecommendationBody
 
 

@@ -9,7 +9,7 @@ class MenuList extends React.Component {
           <li><Link to="/index">Home</Link></li>
           <li><Link to="/share">Share</Link></li>
           <li><Link to="/news">News</Link></li>
-          <li><Link to="/remmedation">Recommendation</Link></li>
+          <li><Link to="/recommendation">Recommendation</Link></li>
         </ul>
         <div className="login">
           <ul className="list-inline">

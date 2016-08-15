@@ -1,10 +1,9 @@
 import MainBody from './components/edit.jsx';
 import NewsBody from './components/news.jsx'
 import Share from './components/share.jsx';
-import RemBody from './components/remmedation.jsx';
+import RecommendationBody from './components/recommendation.jsx';
 import Index from './components/index.jsx';
-import RegBody from './components/register.jsx';
-
+import RegisterBody from './components/register.jsx';
 
 import React from 'react';
 import ReactDOM from 'react-dom';
@@ -23,9 +22,9 @@ ReactDOM.render(<Router history={hashHistory}>
     <Route path='/news' component={NewsBody}/>
     <Route path='/share' component={Share}/>
     <Route path='/edit' component={MainBody}/>
-    <Route path='/remmedation' component={RemBody}/>
+    <Route path='/recommendation' component={RecommendationBody}/>
     <Route path='/index' component={Index}/>
-    <Route path='/register' component={RegBody}/>
+    <Route path='/register' component={RegisterBody}/>
   </Router>,
   document.getElementById('mainbody'));
 if (module.hot) {

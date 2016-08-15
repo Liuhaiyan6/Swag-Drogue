@@ -1,11 +1,10 @@
-
 .swag-name {
     font-size: 1.5em;
     margin-left: 50px;
     font-family: 'Microsoft YaHei';
 }
 
-.part-two {
+.register-body {
     width: 331px;
     height: 440px;
     float: right;
@@ -16,10 +15,9 @@
 
 .enter-form {
     margin-top: 50px;
-
 }
 
-.register-one {
+.register {
 
     font-size: 20px;
     font-weight: 900;
@@ -27,13 +25,13 @@
     padding-left: 6px;
 }
 
-.register-two {
+.login-in {
     margin-top: 30px;
     width: 300px;
     margin-left: 80px;
 }
 
-.register-two a:link, .sign a:visited {
+.login-in a:link, .sign a:visited {
     color: #000;
     text-decoration: none;
 }
@@ -41,7 +39,6 @@
 .enter-button {
     margin-top: 30px;
     width: 300px;
-
 }
 
 .edit-lines {
@@ -64,7 +61,6 @@
 
 .button-confirm a:link {
     color: #000;
-
 }
 
 .register-name {
@@ -74,7 +70,7 @@
     width: 83%;
 }
 
-.register-passWord {
+.register-password {
     border: none;
     margin-left: 30px;
     border-bottom: 2px dotted #000000;
@@ -82,7 +78,7 @@
     margin-top: 30px;
 }
 
-.register-conPassWord {
+.register-confirmPassword {
     border: none;
     margin-left: 30px;
     border-bottom: 2px dotted #000000;
