@@ -45,9 +45,7 @@ class RegisterBody extends React.Component {
         <Logo/>
         <Register/>
       </div>
-
     )
   }
 }
-
 export default RegisterBody
