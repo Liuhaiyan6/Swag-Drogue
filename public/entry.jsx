@@ -16,7 +16,6 @@ require('./styles/news.css');
 require('./styles/recommendation.css');
 require('./styles/index.css');
 require('./styles/register.css');
-
 ReactDOM.render(<Router history={hashHistory}>
     <Route path='/' component={Index}/>
     <Route path='/news' component={NewsBody}/>
