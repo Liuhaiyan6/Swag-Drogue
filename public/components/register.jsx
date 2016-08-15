@@ -1,7 +1,5 @@
 import React from 'react';
 import {Link} from 'react-router';
-require('../styles/register.css');
-
 
 class Logo extends React.Component {
   render() {
