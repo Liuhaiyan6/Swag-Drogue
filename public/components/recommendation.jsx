@@ -122,5 +122,3 @@ class RecommendationBody extends React.Component {
   }
 }
 export default RecommendationBody
-
-
